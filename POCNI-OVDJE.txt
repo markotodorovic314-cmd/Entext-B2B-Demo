@@ -1,0 +1,22 @@
+ENTEXT · B2B PARTNER PORTAL
+
+1. Raspakuj ZIP. Otvori index.html ili objavi cijeli paket na GitHub Pages.
+2. Na početnom ekranu klikni demo profil kupca. Za admin pregled izaberi karticu Administracija.
+3. Lozinka za demo naloge: Demo2026!
+   Kupac: izvodjac@demo.entext.me
+   Admin: admin@demo.entext.me
+4. Odjavi se zadržava promjene. Reset je u Admin → Postavke.
+
+GITHUB PAGES
+Prenesi sve raspakovane fajlove i fascikle u repozitorij.
+index.html mora biti u korijenu, uz assets, vendor i primjeri.
+Zatim Settings → Pages → Deploy from a branch → main → / (root) → Save.
+GitHub će prikazati adresu portala nakon objave.
+
+Paket je statički demo za prezentaciju. Cijene, zalihe, kupci, PDV obračun,
+kreditni limiti i ERP tok su demo. Promjene se pamte samo u tvom pregledniku.
+CSV/TXT/XLSX/XML uvoz i PDF/XLSX/CSV izvoz rade lokalno.
+Fotografija/PDF uvoz je označen demo primjer; stvarni OCR nije povezan.
+
+Detaljne mogućnosti i testni scenario: README.md.
+Izvori proizvoda i fotografija: izvori.csv.

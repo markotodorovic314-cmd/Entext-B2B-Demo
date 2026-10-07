@@ -1,0 +1,4 @@
+sku	qty
+ENT-001	1
+ENT-002	2
+ENT-003	3
