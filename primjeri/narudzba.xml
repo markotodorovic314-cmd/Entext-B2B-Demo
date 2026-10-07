@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+ <item><sku>ENT-001</sku><qty>1</qty></item>
+ <item><sku>ENT-002</sku><qty>2</qty></item>
+ <item><sku>ENT-003</sku><qty>3</qty></item>
+</order>
