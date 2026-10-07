@@ -2,6 +2,10 @@
 
 Kompletan interaktivni demo za prezentaciju Entextu. Statički HTML/CSS/JavaScript paket: radi na GitHub Pages bez instalacije, bez build koraka i bez server aplikacije.
 
+Objavljeni portal: https://markotodorovic314-cmd.github.io/Entext-B2B-Demo/
+
+Update od 7. oktobra 2026. vraća potrebne fascikle nakon ravnog GitHub uploada, poravnava kategorije i primjenjuje ENText crno-bijeli vizuelni identitet. Provjerene su sve 44 fotografije i PDF/XLSX preuzimanje na objavljenom portalu.
+
 ## Postavljanje na GitHub Pages
 
 1. Raspakujte ZIP na računaru.
@@ -82,7 +86,7 @@ Funkcionalni tokovi provjereni su kroz DOM simulaciju: kupčev/admin meni, detal
 
 Provjereni su detalji svih 44 artikla, originalne šifre za brzu narudžbinu, CSV nazivi u navodnicima, uklanjanje prethodnog pregleda nakon greške uvoza, negativne količine, čuvanje korpe, minimalna narudžbina i mobilni meni. Sve slike su otvorene i provjerene kao datoteke, a zajednički pregled fotografija pregledan je vizuelno. Izvještaj je u `PROVJERA.md`.
 
-Vizuelna provjera rasporeda u stvarnom pregledniku nije bila dostupna u okruženju izrade. Rasporedi za mobilne uređaje definisani su u CSS-u; prije sastanka otvorite objavljeni GitHub Pages link na svom računaru i telefonu.
+Objavljeni GitHub Pages portal provjeren je u desktop pregledniku: sve 44 fotografije se učitavaju, kategorije imaju poravnate kružiće i tekst, filter kategorije i slika u detaljima rade. Fotografija showrooma prikazuje se na prijavi. PDF i XLSX dokumenti preuzeti su i potvrđeni kao ispravni formati. Mobilni rasporedi provjereni su u CSS-u i kroz DOM; vizuelna provjera na telefonu još nije obavljena.
 
 ## Fajlovi
 

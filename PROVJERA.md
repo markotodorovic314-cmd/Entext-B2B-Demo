@@ -12,6 +12,16 @@ Datum: 7. oktobar 2026. Rezultat: **prošlo**.
 - JavaScript sintaksa prolazi; u funkcionalnim testovima nema JavaScript grešaka.
 - Sve putanje za pokretanje i slike su relativne, za GitHub Pages repozitorij u podputanji.
 
-Vizuelni raspored u stvarnom desktop/mobilnom pregledniku nije testiran u ovom okruženju. Responsive CSS i otvaranje mobilnog menija provjereni su u izvoru/DOM-u. Fotografije su vizuelno pregledane odvojeno od rasporeda stranice.
+Naknadna provjera objavljenog GitHub Pages portala, 7. oktobar 2026:
+
+- Ispravljene su putanje nakon uploada koji je stavio sve fajlove u korijen. Vraćene su fascikle `assets`, `vendor` i `primjeri`, uključujući sve fotografije i biblioteke.
+- Sve 44 različite fotografije na četiri stranice kataloga učitavaju se u stvarnom desktop pregledniku (`complete` i `naturalWidth > 0`); nije korišćena nijedna rezervna ilustracija.
+- Kružići kategorija imaju jednaku lijevu poziciju i širinu 16 px; tekst svih kategorija počinje u istoj koloni. Filter Kupatilo i slika u detaljima potvrđeni su kroz UI.
+- Portal koristi crno-bijeli ENText identitet. Pregledani su prijava sa fotografijom showrooma, pregled kupca i katalog.
+- PDF potvrda i XLSX cjenik preuzeti su iz objavljenog portala. Potvrđeni su PDF zaglavlje i struktura Excel radne sveske.
+- Ponovljeno je svih 25 grupa funkcionalnih DOM provjera: prolaze bez JavaScript grešaka.
+- GitHub Pages objava za commit `b3b49ad9afda269fc569d1eff6a9b1e9df8d8173` završena je uspješno.
+
+Vizuelni raspored na telefonu nije testiran. Responsive CSS i otvaranje mobilnog menija provjereni su u izvoru/DOM-u.
 
 Ovo je lokalni interaktivni demo: prijava bira ulogu, poslovni podaci i ERP tok su demonstracioni, a promjene se čuvaju u pregledniku. Stvarni OCR, produkciona autentifikacija i ERP povezivanje nisu uključeni.
